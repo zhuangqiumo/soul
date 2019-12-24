@@ -17,6 +17,8 @@
         <module>soul-spring-boot-starter</module>
         <module>soul-bootstrap</module>
         <module>soul-client</module>
+        <!--<module>soul-extend-demo</module>
+        <module>soul-test</module>-->
     </modules>
 
     <organization>
@@ -290,7 +292,7 @@
 
     <build>
         <plugins>
-             <plugin>
+             <!--<plugin>
                  <groupId>org.sonatype.plugins</groupId>
                  <artifactId>nexus-staging-maven-plugin</artifactId>
                  <version>1.6.3</version>
@@ -313,7 +315,7 @@
                          </goals>
                      </execution>
                  </executions>
-             </plugin>
+             </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
